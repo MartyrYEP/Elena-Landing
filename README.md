@@ -1,4 +1,4 @@
 <h1>
-  <a href="https://github.com/MartyrYEP/Elena-Landing">
+  <a href="https://github.com/MartyrYEP/Elena-Landing/index">
     elena_landing</a>
   </h1>
