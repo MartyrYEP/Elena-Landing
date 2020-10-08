@@ -84,70 +84,35 @@ opacity: 0.5;
     margin: 0 auto;
 }
 .feedback{
-    display: flex;
+padding: 60px 0px;
+}
+.feedback__contacts{
     justify-content: space-between;
-    text-align: center;
-    padding: 63px;
+}
+.feedback__contacts-picture{
+    
+}
+.feedback__contacts-title{
+    margin-top: 32px;
     font-family: 'PT Sans', sans-serif;
-}
-.feedback__wrapper{
-    max-width: 950px;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-}
-.feedback__responsive-email{
-margin-right: 300px;
-}
-.feedback__compatible-tamplate{
-
-}
-
-.feedback__responsive-email-title{
-    margin: 32px;
     font-weight: bold;
 }
-.feedback__responsive-email-info{
-    margin: 31px;
+.feedback__contacts-info{
+    margin-top: 32px;
     font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
     color: #787b80;
-    text-align: left;
+    width: 60%;
 }
-.feedback__responsive-email-button{
-    margin: 34px;
+.feedback__contacts-button{
+margin-top: 34px;
     border: 0px;
-    font-size: 14px;
-    background-color: #3dd3ba;
-    color: white;
     border-radius: 20px;
-    padding: 10px 15px;
-    display: block;
-}
-.feedback__responsive-email-button:hover{
-    opacity: 0.5;
-    cursor: pointer;
-} 
-.feedback__compatible-tamplate-title{
-    margin: 32px;
-    font-weight: bold;
-}
-.feedback__compatible-tamplate-info{
-    margin: 31px;
-    font-size: 14px;
-    color: #787b80;
-    text-align: left;
-}
-.feedback__compatible-tamplate-button{
-    margin: 34px;
-    border: 0px;
-    font-size: 14px;
-    background-color: #3dd3ba;
     color: white;
-    border-radius: 20px;
+    background-color: #3dd3ba;
     padding: 10px 15px;
-    display: block;
 }
-.feedback__compatible-tamplate-button:hover{
+.feedback__contacts-button:hover{
     opacity: 0.5;
     cursor: pointer;
 }
@@ -187,5 +152,38 @@ hr{
 }
 .support__button:hover{
     opacity: 0.5;
+    cursor: pointer;
+}
+.benefits{
+    padding: 60px 0px;
+}
+.benefits__wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 950px;
+    margin: 0 auto;
+}
+.benefits__application-picture{
+    margin-top: 58px;
+    padding-bottom: 41px;
+}
+.benefits__application-title{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+.benefits__application-info{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: #787b80;
+    padding-bottom: 28px;
+    width: 75%;
+}
+.benefits__application-link{
+    color: #50c3af;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+}
+.benefits__application-link:hover{
     cursor: pointer;
 }
